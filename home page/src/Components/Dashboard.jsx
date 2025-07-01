@@ -3,7 +3,7 @@ import DashboardImage from '../Assets/DashboardImage.png'
 
 const Dashboard = () => {
   return (
-    <div className=' bg-[#E5E5E569] w-[60vw]'>
+    <div className=' bg-[#E5E5E569] w-[60vw] flex flex-col h-min-screen'>
         <ul className='text-2xl font-bold font-mono flex justify-around m-10'>
             <li className=' cursor-pointer'>Home</li>
             <li className=' cursor-pointer'>About us</li>

@@ -3,10 +3,11 @@ import React from 'react'
 const HomePage = () => {
   return (
     <>
-      <section className=' h-screen w-[40vw] m-10 mt-10'>
+      <section className=' h-screen w-[40vw] m-10 mt-10 font-sans'>
         <div className=' text-left'>
-            <h1 className='text-3xl font-bold text-blue-900 mb-32'>Digital</h1>
-            <p className='text-2xl font-bold text-blue-900'> Artificial Intelligence Driving <br></br>Results For The Travel Industry</p>
+            <h1 className='text-3xl font-bold text-[#3751FE] mb-32'>Digital</h1>
+            <p className='text-3xl font-bold text-[#3751FE] mb-2'> Artificial Intelligence Driving </p>
+            <p className='text-3xl font-bold text-[#3751FE]'>Results For The Travel Industry</p>
             <p className='mt-8'> Welcome  back! Please login to your account.</p>
         </div>
 
@@ -26,12 +27,22 @@ const HomePage = () => {
             </div>
 
             <div className='flex justify-between'>
-                <button type='submit' className=' bg-blue-700 text-white px-5 py-3 rounded-md'>Login</button>
-                <button className=' text-blue-700 px-5 py-3 rounded-md border-blue-700'>SignUp</button>
+                <button type='submit' className=' bg-[#3751FE] text-white px-6 py-3 rounded-md'>Login</button>
+                <button className=' text-[#3751FE] px-5 py-3 rounded-md border-blue-700'>SignUp</button>
             </div>
 
         </form>
+
+        <div className='mt-4 flex'>
+            <p className=' mr-6'>or login with</p>
+            <ul className=' text-[#3751FE] flex justify-around gap-6 '>
+              <li className=' cursor-pointer'>Facebook</li>
+              <li className=' cursor-pointer'>Linkedin</li>
+              <li className=' cursor-pointer'>Google</li>
+            </ul>
+        </div>
       </section>
+
     </>
   )
 }
