@@ -4,7 +4,7 @@ import Dashboard from './Components/Dashboard'
 
 function App() {
   return (
-    <div className=' flex'>
+    <div className=' mx-auto flex justify-center w-full max-w-[1440px]'>
       <HomePage />
       <Dashboard />
     </div>
