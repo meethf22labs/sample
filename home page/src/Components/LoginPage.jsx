@@ -15,7 +15,6 @@ const LoginPage = () => {
         <section className=' flex'>
             <div className=' w-[65vw] flex justify-center'>
 
-            
             {/* card for login ways  */}
             <div className=' w-[30vw] flex flex-col gap-4 justify-center'>
                 <h1 className=' text-5xl font-bold'>Explore the world to experience the beauty of nature</h1>
@@ -36,9 +35,8 @@ const LoginPage = () => {
                 <button className='w-full border rounded-full py-3 px-6 flex items-center justify-center gap-3 bg-black text-white'>Signup with email</button>
                 <p>By signing up, you agree to the Terms of Service and Privacy Policy, including cookie use.</p>
             </div>
-
-
-
+            {/* card for login ways  */}
+            
             </div>
             <img className=' w-[35vw]'src={LoginImage} alt='LoginImage'/>
         </section>
