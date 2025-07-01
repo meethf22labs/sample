@@ -1,5 +1,5 @@
 import React from 'react'
-import DashboardImage from '../Assets/DashboardImage.png'
+import DashboardImage from '../assets/dashboardImage.png'
 
 const Dashboard = () => {
   return (
